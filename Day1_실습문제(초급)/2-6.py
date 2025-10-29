@@ -11,3 +11,9 @@
 # dan = 3
 dan = int(input("단 입력: "))
 print(f"{dan}단 리스트: {[dan * i for i in range(1, 10)]}")
+
+# 방법 1
+
+result = []
+for i in range(1, 10):
+    result.append(3 * i)
